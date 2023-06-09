@@ -1,0 +1,122 @@
+.hero-btn {
+  width: 200px;
+  margin-left: 38%;
+  margin-right: 38%;
+  margin-top: 30px;
+  border-radius: 4px;
+  background: var(--button-background-color);
+  font-size: 16px;
+  line-height: 1.87;
+  letter-spacing: 0.06em;
+  color: var(--btn-text-color);
+  cursor: pointer;
+  &:hover,
+  &:focus {
+    background: #0b7cd8;
+  }
+}
+.btn-subscribe {
+  background: #2196f3;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-right: 55px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 30px;
+  letter-spacing: 0.06em;
+  color: #ffffff;
+  width: 200px;
+  border: none;
+  cursor: pointer;
+  position: relative;
+  &:hover,
+  &:focus {
+    background: #0f77cd;
+  }
+  &__sending-icon {
+    width: 24px;
+    height: 24px;
+    position: absolute;
+    left: 1400px;
+  }
+}
+.btn-set {
+  display: flex;
+  gap: 8px;
+  justify-content: center;
+  border-radius: 4px;
+  list-style-type: none;
+  &__menu {
+    font-family: "Roboto";
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.62;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--text-color);
+    cursor: pointer;
+    border: none;
+    border-radius: 4px;
+    width: auto;
+    padding: 6px 22px;
+    margin: 0 auto;
+    &:hover,
+    &:focus {
+      box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
+        1px 4px 6px rgba(0, 0, 0, 0.16);
+      color: #ffffff;
+      background: var(--link-active-color);
+      transition: transform var(--transition);
+    }
+  }
+}
+.close-btn {
+  outline: none;
+  cursor: pointer;
+  color: #000000;
+  position: absolute;
+  right: 8px;
+  top: 8px;
+  background: #ffffff;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-radius: 50%;
+  padding-right: 10px;
+  &:hover,
+  &:focus {
+    background: #dedcdc;
+    transition: transform var(--transition);
+  }
+}
+.btn-submit {
+  background: #2196f3;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+  padding: 10px 80px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 30px;
+  text-align: center;
+  letter-spacing: 0.06em;
+  color: #ffffff;
+  max-width: 200px;
+  border: none;
+  cursor: pointer;
+  &:hover,
+  &:focus {
+    background: #0f77cd;
+  }
+}
+.button--toggle-menu {
+  padding: 0;
+  width: 40px;
+  height: 40px;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}

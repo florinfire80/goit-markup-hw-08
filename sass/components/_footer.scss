@@ -1,0 +1,97 @@
+/*Footer section*/
+
+.footer {
+  background: #2f303a;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  color: var(--footer-text-color);
+  &__items {
+    display: flex;
+    gap: 70px;
+    align-items: center;
+  }
+  &__logo {
+    font-family: var(--logo-font-family);
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+    color: var(--footer-text-color);
+    text-decoration: none;
+    background: #2f303a;
+    &--modified {
+      color: var(--logo-design-color);
+    }
+  }
+  &__contact {
+    width: 231px;
+  }
+  &__text {
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--footer-text-color);
+    margin-top: 0;
+    margin-bottom: 20px;
+  }
+}
+.address {
+  width: 231px;
+  margin-top: 28px;
+  &__text {
+    color: var(--footer-text-color);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    margin-bottom: 10px;
+  }
+  &__email-phone {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    color: rgba(255, 255, 255, 0.6);
+    background: #2f303a;
+    text-decoration: none;
+    &:hover,
+    &:focus {
+      color: var(--link-active-color);
+      transition: transform var(--transition);
+    }
+  }
+}
+.social-list {
+  display: flex;
+  gap: 10px;
+  list-style-type: none;
+  padding-left: 0;
+  &__icon {
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    background: #2f303a;
+  }
+  &__link:hover,
+  &__link:focus {
+    color: var(--link-active-color);
+    fill: var(--link-active-color);
+    transition: transform var(--transition);
+  }
+  &__form {
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+    border-radius: 4px;
+    width: 358px;
+    height: 50px;
+    background-color: var(--hero-background-color);
+    padding-left: 10px;
+    color: #ffffff;
+  }
+}

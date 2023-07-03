@@ -1,0 +1,92 @@
+/*Main text section*/
+
+/* Stil pentru mobil */
+
+.main-text {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: var(--main-text-color);
+  width: auto;
+  &__list {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    padding: 0;
+    list-style: none;
+    margin: 0 15px;
+
+    &-item {
+      background-color: var(--main-text-bg-color);
+    }
+  }
+  &__item {
+    background-color: #f5f4fa;
+    margin-bottom: 30px;
+    border-radius: 4px;
+    width: 270px;
+    height: 120px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: auto;
+  }
+  &__icon {
+    width: 70px;
+    height: 70px;
+  }
+  &__label {
+    margin-top: 0;
+    width: 270px;
+  }
+  &__letterpress {
+    margin-top: 10px;
+    width: auto;
+  }
+}
+
+/* Stil doar pentru tableta */
+
+/* Stil doar pentru Desktop */
+
+@media screen and (min-width: $desktop-breakpoint) {
+  .main-text {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: var(--main-text-color);
+    &__list {
+      display: flex;
+      flex-direction: row;
+      gap: 30px;
+      padding: 0;
+      list-style: none;
+      &-item {
+        background-color: var(--main-text-bg-color);
+      }
+    }
+    &__item {
+      background-color: #f5f4fa;
+      margin-bottom: 30px;
+      border-radius: 4px;
+      width: 270px;
+      height: 120px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    &__icon {
+      width: 70px;
+      height: 70px;
+    }
+    &__label {
+      margin-top: 0;
+      width: 270px;
+    }
+    &__letterpress {
+      margin-top: 10px;
+    }
+  }
+}

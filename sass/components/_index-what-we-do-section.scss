@@ -1,0 +1,37 @@
+/*What we do section + labels*/
+
+.occupation {
+  background-color: #ffffff;
+  &__cards {
+    display: flex;
+    gap: 30px;
+    padding: 0;
+    list-style: none;
+  }
+  &__image {
+    width: 370px;
+    height: auto;
+  }
+  &__item {
+    background-color: var(--main-text-bg-color);
+    position: relative;
+  }
+  &__label {
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    text-align: center;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--label-text-color);
+    position: absolute;
+    top: 76%;
+    width: 100%;
+    height: 70px;
+    padding-top: 27px;
+    font-family: sans-serif;
+    background-color: #2f303acc;
+  }
+}
